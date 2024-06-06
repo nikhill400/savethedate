@@ -86,17 +86,17 @@ const InvitationCard = () => {
                 <h4 className="event-heading">Saturday Event Info</h4>
                 <div className="event-info">
                     {/* Event date */}
-                    <div className="event-info-item" data-aos="zoom-out-right" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img3} alt="Event Date" />
                         <p className="event-date">June 8, Saturday</p>
                     </div>
                     {/* Event time */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img1} alt="Event Time" />
                         <p className="event-time">6:00 PM to 9:00 PM</p>
                     </div>
                     {/* Event location - Hall */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img4} alt="Hall" />
                         <p className="event-location">Galaxy Auditorium</p>
                         <button onClick={() => openMap('https://maps.app.goo.gl/JFgyKKfyh6HXo3EU6')} > {/* Set the duration to 2000 milliseconds (2 seconds) */}
@@ -109,17 +109,17 @@ const InvitationCard = () => {
                 <h4 className="event-heading">Sunday Event Info</h4>
                 <div className="event-info">
                     {/* Event date */}
-                    <div className="event-info-item" data-aos="zoom-out-right" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img3} alt="Event Date" />
                         <p className="event-date">June 9, Sunday</p>
                     </div>
                     {/* Event time */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img1} alt="Event Time" />
                         <p className="event-time">10:30 AM to 3:00 PM</p>
                     </div>
                     {/* Event location - Church */}
-                    <div className="event-info-item" data-aos="zoom-out-right" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img2} alt="Church" />
                         <p className="event-location">St. Paul The Hermit Church </p>
                         <button onClick={() => openMap('https://maps.app.goo.gl/xXhnKDyrhTHckQJi6')} > {/* Set the duration to 2000 milliseconds (2 seconds) */}
@@ -127,7 +127,7 @@ const InvitationCard = () => {
                         </button>
                     </div>
                     {/* Event location - Hall */}
-                    <div className="event-info-item" data-aos="zoom-out-left" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
+                    <div className="event-info-item" data-aos="zoom-in-up" data-aos-duration="1000"> {/* Set the duration to 2000 milliseconds (2 seconds) */}
                         <img className="event-img" src={img4} alt="Hall" />
                         <p className="event-location">A1 Auditorium</p>
                         <button onClick={() => openMap('https://maps.app.goo.gl/6S6U6FnEgtnD2ydR9')} > {/* Set the duration to 2000 milliseconds (2 seconds) */}
